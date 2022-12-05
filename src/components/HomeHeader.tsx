@@ -1,4 +1,4 @@
-import { MaterialIcons } from '@expo/vector-icons';
+import { MaterialIcons } from "@expo/vector-icons";
 import { Heading, HStack, Icon, Text, VStack } from "native-base";
 import React from "react";
 import { TouchableOpacity } from "react-native";
@@ -9,7 +9,7 @@ export function HomeHeader() {
   return (
     <HStack bg="gray.600" pt={16} pb={5} px={8} alignItems="center">
       <UserPhoto
-        source={{ uri: "https://github.com/rodrigorgtic.png" }}
+        source={{ uri: "https://github.com/michel-klein.png" }}
         size={16}
         alt="Imagem do usuário"
         mr={4}
@@ -20,7 +20,7 @@ export function HomeHeader() {
         </Text>
 
         <Heading color="gray.100" fontSize="md">
-          Rodrigo
+          Michel
         </Heading>
       </VStack>
       <TouchableOpacity>
